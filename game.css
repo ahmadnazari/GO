@@ -17,13 +17,14 @@ body {
 	margin-right:10px;
 	display: inline-block;
 	background-color:rgba(0,0,0,0.5);
-	width: 200px;
+	width: auto;
 	height: 400px;
 	float: left;
 }
 
 .myButton {
 	margin: 3px;
+	width:100px;
 	-moz-border-radius:6px;
 	-webkit-border-radius:6px;
 	border-radius:6px;

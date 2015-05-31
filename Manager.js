@@ -18,8 +18,9 @@ function Manager(width, height)
 		this.tileSize = this.gameWidth * 0.03;
 
 		$(controls).css("height", this.totalHeight * 0.95);
-		$(controls).css("width", this.totalWidth*0.2);
+		// $(controls).css("width", this.totalWidth*0.2);
 		$(".myButton").css("font-size", this.totalHeight * 0.02);
+		$(".myButton").css("width", this.totalHeight * 0.15);
 		$(AIThink).css("font-size", this.totalHeight * 0.02);
 		$(message).css("font-size", this.totalHeight * 0.02);
 		$(gameModeText).css("font-size", this.totalHeight * 0.03);
