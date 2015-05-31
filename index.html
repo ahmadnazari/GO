@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
@@ -64,63 +63,3 @@ $ git checkout gh-pages
   </body>
 </html>
 
-=======
-<!doctype html>
-<html>
-<head>
-    <meta charset="UTF-8" />
-    <title>GO</title>
-    <link rel="stylesheet" type="text/css" href="game.css">
-    <script src="phaser.min.js"></script>
-    <script src="Manager.js"></script>
-    <script src="underscore.js"></script>
-    <script src="Gaussian.js"></script>
-    <script src="Logic.js"></script>
-    <script src="jquery-1.11.3.min.js"></script>
-
-
-
-</head>
-<body onresize="initSize(window.innerWidth, window.innerHeight, true)">
-
-    <script type="text/javascript">
-    window.onload = function() {
-    	Manager(window.innerWidth, window.innerHeight);
-    }
-    </script>
-
-    <div id = "game">
-        <div id = "controls">
-            <div id = "gameMode">
-                <a id = "easy" class="myButton" onclick = "changeMode('easy')" >beginner</a>
-                <br>
-                <a id = "medium" class="myButton" onclick = "changeMode('medium')">medium</a>
-                <br>
-                <a id = "hard" class="myButton" onclick = "changeMode('hard')">advanced</a>
-                <br>
-                <font id = "gameModeText">easy</font>
-            </div>
-            <hr>
-            <div id = "status">
-                <font id = "AIThink"></font>
-                <br>
-                <font id = "message"></font>
-            </div>
-            <hr>
-            <div id = "start">
-                <a id = "Pass" class="myButton" onclick = "pass()" >pass</a>
-                <br>
-                <a id = "resetWhite" class="myButton" onclick = "resetWhite()">new Game(white)</a>
-                <br>
-                <a id = "resetBlack" class="myButton" onclick = "resetBlack()">new Game(black)</a>
-            </div>
-
-        </div>
-        <div id = "gameBoard">
-        </div>
-    </div>
-</body>
-</html>
-
-<!-- <a href="#" class="myButton">easy</a> -->
->>>>>>> master
