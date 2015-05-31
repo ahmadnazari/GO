@@ -24,8 +24,8 @@ function Manager(width, height)
 		$(AIThink).css("font-size", this.totalHeight * 0.02);
 		$(message).css("font-size", this.totalHeight * 0.02);
 		$(gameModeText).css("font-size", this.totalHeight * 0.03);
-		// $(AIThink).css("height", this.totalHeight * 0.2);
-		// $(message).css("height", this.totalHeight * 0.02);
+		$(AIThink).css("height", 1);
+		$(message).css("height", 1);
 
 		// if(resize){
 		// 	this.drawTiles(ai.board[0]);
@@ -136,13 +136,13 @@ function Manager(width, height)
 	this.changeMode = function(mode){
 		$(gameModeText).html(mode);
 		switch(mode){
-			case "easy":
+			case "bigenner":
 				ai.niveau = 1;
 				break;
 			case "medium":
 				ai.niveau = 2;
 				break;
-			case "hard":
+			case "advanced":
 				ai.niveau = 3;
 				break;
 		}
