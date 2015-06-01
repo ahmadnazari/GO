@@ -18,14 +18,12 @@ function Manager(width, height)
 		this.tileSize = this.gameWidth * 0.03;
 
 		$(controls).css("height", this.totalHeight * 0.95);
-		// $(controls).css("width", this.totalWidth*0.2);
-		$(".myButton").css("font-size", this.totalHeight * 0.02);
+		$(".myButton").css("font-size", 7 + this.totalHeight * 0.015);
 		$(".myButton").css("width", this.totalHeight * 0.15);
-		$(AIThink).css("font-size", this.totalHeight * 0.02);
-		$(message).css("font-size", this.totalHeight * 0.02);
-		$(gameModeText).css("font-size", this.totalHeight * 0.03);
-		$(AIThink).css("height", 1);
-		$(message).css("height", 1);
+		$(AIThink).css("font-size",7 + this.totalHeight * 0.015);
+		$(message).css("font-size", 7 + this.totalHeight * 0.015);
+		$(gameModeText).css("font-size",9 + this.totalHeight * 0.015);
+		$(statuss).css("height", (7 + this.totalHeight * 0.015) * 2.5);
 
 		// if(resize){
 		// 	this.drawTiles(ai.board[0]);

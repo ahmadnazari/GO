@@ -135,18 +135,18 @@ body {
     font-size: 20px;
 }
 
-#status{
+#statuss {
 	height: 40px;
 }
 #message{
-	height: 20px;
+	/*height: 200px;*/
 	color: red;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-size: 20px;
 }
 
 #AIThink{
-	height: 20px;
+	/*height: 20px;*/
 	color: lightGreen;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-size: 20px;

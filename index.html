@@ -14,7 +14,7 @@
 
 
 </head>
-<body onresize="initSize(window.innerWidth, window.innerHeight, true)">
+<body>
 
     <script type="text/javascript">
     window.onload = function() {
@@ -25,27 +25,27 @@
     <div id = "game">
         <div id = "controls">
             <div id = "gameMode">
-                <a id = "easy" class="myButton" onclick = "changeMode('easy')" >beginner</a>
+                <a id = "easy" class="myButton" onclick = "changeMode('beginner')" >beginner</a>
                 <br>
                 <a id = "medium" class="myButton" onclick = "changeMode('medium')">medium</a>
                 <br>
-                <a id = "hard" class="myButton" onclick = "changeMode('hard')">advanced</a>
+                <a id = "hard" class="myButton" onclick = "changeMode('advanced')">advanced</a>
                 <br>
-                <font id = "gameModeText">easy</font>
+                <span id = "gameModeText">beginner</span>
             </div>
             <hr>
-            <div id = "status">
-                <font id = "AIThink"></font>
+            <div id = "statuss">
+                <span id = "AIThink"></span>
                 <br>
-                <font id = "message"></font>
+                <span id = "message"></span>
             </div>
             <hr>
             <div id = "start">
                 <a id = "Pass" class="myButton" onclick = "pass()" >pass</a>
                 <br>
-                <a id = "resetWhite" class="myButton" onclick = "resetWhite()">new Game(white)</a>
+                <a id = "resetWhite" class="myButton" onclick = "resetWhite()">new game</a>
                 <br>
-                <a id = "resetBlack" class="myButton" onclick = "resetBlack()">new Game(black)</a>
+                <a id = "resetBlack" class="myButton" onclick = "resetBlack()">new game</a>
             </div>
 
         </div>
