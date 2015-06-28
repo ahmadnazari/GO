@@ -167,6 +167,7 @@ function Manager(width, height)
 		setTimeout(function(_this){return function(){_this.drawTiles(_this.ai.board[0])}}(this) , 30);
 		setTimeout(function(_this){return function(){_this.ai.nieuwSpel(_this.turn) }}(this) , 100);
 		setTimeout(function(_this){return function(){_this.showAIThink(false) }}(this) , 100);
+		setTimeout(function(_this){return function(){_this.drawTiles(_this.ai.board[0])}}(this) , 100);
 	}
 
 	this.resetBlack = function(){
@@ -180,4 +181,9 @@ function Manager(width, height)
 		};
 	}
 
+	this.setHandicap = function(handicapNumber){
+		ai.message = "Pas van invloed bij nieuw spel!";
+		ai.handicap = handicapNumber;
+		this.drawTiles(this.ai.board[0]);
+	}
 }
